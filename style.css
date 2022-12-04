@@ -3,8 +3,7 @@
     padding: 0;
 }
 body {
-    font-size: 1.5rem;
-
+    font: 16px/28px arial, sans-serif;
 }
 .container {
     margin: auto;
@@ -12,14 +11,35 @@ body {
 }
 
 header {
-    background-color: aquamarine;
-    margin: auto;
-    height: 100vh;
-    display: flex;
+    padding: 20px;
+    text-transform: capitalize;
 }
 
-h1 {
-    margin :auto;
-    font-size: 5em;
-    color: brown;
+header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+
+.hero {
+    height: 250px;
+    background-image: url(muslim-praying-sujud-posture.jpg);
 }
