@@ -41,5 +41,10 @@ header a:hover {
 
 .hero {
     height: 250px;
-    background-image: url(muslim-praying-sujud-posture.jpg);
+    /*width: 100vmax;*/
+    /*margin: calc(-50px + 50vmax);*/
+    background-image: url(edited.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 75%;
 }
